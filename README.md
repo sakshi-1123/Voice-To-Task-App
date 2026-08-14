@@ -27,8 +27,6 @@ A voice-driven task management React Native application built with Expo. The app
 2. **Local Parsing Engine:** The transcript is parsed locally on-device into a task title, target date, and time.
 3. **Editable Preview Form:** The user reviews and corrects any details in `TaskForm.js` before saving.
 4. **Local Persistence:** Tasks are stored securely on the device using `@react-native-async-storage/async-storage`.
-5. **Scheduled Local Reminders:** `expo-notifications` schedules an exact system alarm/notification on Android with high-priority channels.
-
 ---
 
 ## 🚀 Future Enhancements
