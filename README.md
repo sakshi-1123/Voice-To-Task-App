@@ -4,17 +4,6 @@ A voice-driven task management React Native application built with Expo. The app
 
 ---
 
-## 📸 Screenshots
-
-| Home & Voice Input | Task List & Notifications |
-| :---: | :---: |
-| ![Home Screen](./assets/screenshots/HomeScreen.jpeg) | ![Task List Screen](./assets/screenshots/TaskInput.jpeg) |
-| ![Home Screen](./assets/screenshots/SaveTask.jpeg) | ![Task List Screen](./assets/screenshots/TaskList.jpeg) |
-| ![Home Screen](./assets/screenshots/CompletedTask.jpeg) | 
-
-
----
-
 ## 🔄 Current App Pipeline
 [ 🎙️ Voice Input ]
 │ (expo-speech-recognition)
