@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "VoiceToTask",
+    "slug": "voice-to-task-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#6C5CE7"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.voicetotask",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app uses the microphone to capture your voice commands and convert them into tasks.",
+        "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to convert your voice into task details."
+      }
+    },
+    "android": {
+      "package": "com.yourname.voicetotask",
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-speech-recognition"
+    ]
+  }
+}
